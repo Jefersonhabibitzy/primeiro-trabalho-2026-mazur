@@ -1,1 +1,35 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Player de Música</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="player">
+        <div class="img-area">
+            <img src="https://via.placeholder.com/250" alt="Capa do Álbum" id="track-art">
+        </div>
+        
+        <div class="song-details">
+            <h2 id="track-name">Nome da Música</h2>
+            <p id="track-artist">Artista</p>
+        </div>
+
+        <div class="controls">
+            <button id="prev">⏮</button>
+            <button id="play-pause">▶</button>
+            <button id="next">⏭</button>
+        </div>
+
+        <div class="progress-container">
+            <input type="range" id="progress-bar" min="0" max="100" value="0">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
